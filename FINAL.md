@@ -1,8 +1,8 @@
 # NeXtCS Project 01
 ### Period:  
-### Name0: YOUR NAME HERE
+### Name0: Derek Yang
 ### Name1: TEAMMATE NAME HERE (delete if working solo)
-#### Selected Game: YOUR GAME HERE
+#### Selected Game: Alien Invaders
 ---
 
 ### How To Play
