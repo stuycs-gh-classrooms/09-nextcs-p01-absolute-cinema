@@ -31,16 +31,22 @@ What are the core features that your program should have? These should be things
 ### Extra Features
 What are some features that are not essential to the program, but you would like to see (provided you have time after completing the necessary features. Theses can be customizations that are not part of the core requirements.
 
-YOUR ANSWERS HERE
+- EXP system
+- Upgrades
+- Player moves in all directions
+- Enemies moves in all directions
+- Multiple abilities
+- Screen to rebind keystorkes to different abilities
+- 
 
 ### Array Usage
 How will you be using arrays in this project?
 
 1D Array:
-- YOUR ANSER HERE
+- Store bullets, enemies, other stuff currently on screen
 
 2D Array:
-- YOUR ANSWER HERE
+- 
 
 
 ### Controls
