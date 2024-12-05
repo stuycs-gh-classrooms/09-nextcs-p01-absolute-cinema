@@ -69,7 +69,7 @@ ALIEN
 - Instance variables:
   - alienType
   - maxHealth
-  - health
+  - curHealth
   - power
   - xChange
   - yChange
@@ -82,7 +82,8 @@ ALIEN
 
 PLAYER
 - Instance variables:
-  - health
+  - maxHealth
+  - curHealth
   - array for unlocked abilities
   - array for cooldowns
   - xPos
@@ -90,4 +91,4 @@ PLAYER
   - hitboxDiameter
 - METHODS
   - fire()
-  - 
+  - decreaseHealth(int dmg)
