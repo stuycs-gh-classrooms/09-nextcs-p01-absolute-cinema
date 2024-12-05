@@ -17,7 +17,7 @@ This project will be completed in phases. The first phase will be to work on thi
 
 ## Phase 0: Selection, Analysis & Plan
 
-#### Selected Project: CHOOSE WISELY
+#### Selected Project: Alien Invaders
 
 ### Necessary Features
 What are the core features that your program should have? These should be things that __must__ be implemented in order to make the program useable/playable, not extra features that could be added to make the program more interesting/fun.
@@ -46,31 +46,48 @@ How will you be using arrays in this project?
 - Store bullets, enemies, other stuff currently on screen
 
 2D Array:
-- 
+- Work in progress
 
 
 ### Controls
 How will your program be controlled? List all keyboard commands and mouse interactions.
 
 Keyboard Commands:
-- LIST OF COMMANDS HERE
+- WASD to Move
+- QERF for abilities
+- Space to Pause/Resume
 
 Mouse Control:
-- Mouse movement:
-- Mouse pressed:
+- Mouse movement: Points your ship in that direction
+- Mouse pressed: Fire
 
 
 ### Classes
 What classes will you be creating for this project? Include the instance variables and methods that you believe you will need. You will be required to create at least 2 different classes. If you are going to use classes similar to those we've made for previous assignments, you will have to add new features to them.
 
-CLASS NAME0
+ALIEN
 - Instance variables:
-  - LIST INSTANCE VARS HERE
+  - alienType
+  - maxHealth
+  - health
+  - power
+  - xChange
+  - yChange
+  - xPos
+  - yPos
+  - hitboxDiameter
 - METHODS
-  - LIST METHODS HERE
+  - decreaseHealth(int dmg)
+  - move()
 
-CLASS NAME1
+PLAYER
 - Instance variables:
-  - LIST INSTANCE VARS HERE
+  - health
+  - array for unlocked abilities
+  - array for cooldowns
+  - xPos
+  - yPox
+  - hitboxDiameter
 - METHODS
-  - LIST METHODS HERE
+  - fire()
+  - 
